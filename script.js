@@ -15,12 +15,11 @@ function triger(value){
 }
 
 function converterBin(value){
-    
-    let num = value
+    let num = parseInt(value)
     let binary = (num % 2).toString()
 
     while(num > 1){
-        num = parseInt(num/2)
+        num = parseInt(num / 2)
         binary = (num % 2) + binary
     }
 
