@@ -36,11 +36,9 @@ function converterInt(value){
         const binArr = bin.map(x => parseInt(x))
 
         binArr.forEach((value, numberI) =>{
-            if(number){
-                number += (2**numberI)*value 
-            }else{
-                number = (2**numberI)*value
-            }
+
+            number = number ? number += (2**numberI)*value : number = (2**numberI)*value
+
         })
     }
     return number
