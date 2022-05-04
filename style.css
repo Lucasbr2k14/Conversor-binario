@@ -9,7 +9,7 @@
 }
 
 body{
-    font-family: Didot, serif ;
+    font-family: Roboto;
     background-color: #333333;
     color:white;
 
@@ -44,10 +44,6 @@ input{
     font-size:14px;
     -moz-appearance: textfield;
 
-}
-
-input::selection{
-    background-color: #186e63;
 }
 
 input:focus{
