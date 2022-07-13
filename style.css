@@ -12,6 +12,11 @@ body{
     font-family: Roboto;
     background-color: #333333;
     color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 
 }
 
@@ -22,12 +27,12 @@ h1{
     text-align: center;
 }
 
+header {
+    width: 100%;
+}
+
 #box{
     background-color: rgba(0, 0, 0, 0.4);
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     padding: 80px;
     border-color: #392694;
     border-style: solid;
@@ -48,4 +53,8 @@ input{
 
 input:focus{
     outline: none;
+}
+
+a{
+    color: #ffffff;
 }
